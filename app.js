@@ -73,7 +73,6 @@ app.get('/cerrar-sesion',(req,res)=>{
     }
 })
 
-
 const PORT = 3005
 app.listen(PORT,()=>{
     console.log(`Servidor ejecutándose en http://localhost:${PORT}`)
