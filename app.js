@@ -212,8 +212,6 @@ setInterval(() => {
   }
 }, 60 * 1000); // Verifica cada minuto
 
-
-
 const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
