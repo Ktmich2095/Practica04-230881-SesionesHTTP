@@ -193,9 +193,6 @@ app.get("/listAllSessions", (req, res) => {
   res.status(200).json({ sessions: allSessions });
 });
 
-
-
-// Destrucción automática de sesiones inactivas
 // Destrucción automática de sesiones inactivas
 setInterval(() => {
   const now = moment();
